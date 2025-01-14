@@ -1,7 +1,4 @@
 
-
-
-/*====root====*/
 :root {
   --body-color: rgb(31, 36, 37) ;
   --text-color: rgb(255, 255, 255) ;
@@ -22,10 +19,20 @@ header {
   align-items: center;
 }
 
-/*====body====*/
+.logo {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 body {
   height: 100vh;
   background: var(--body-color);
 }
-
-/*====section====*/
