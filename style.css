@@ -1,7 +1,7 @@
-
+/*====root====*/
 :root {
   --body-color: rgb(31, 36, 37) ;
-  --text-color: rgb(255, 255, 255) ;
+  --text-color: rgb(0, 0, 0) ;
 }
 
 
@@ -23,6 +23,12 @@ header {
   cursor: pointer;
 }
 
+/*====nav====*/
+
+.navbar {
+  background-color: #c2d377;
+}
+
 .nav-links {
   list-style: none;
 }
@@ -31,6 +37,18 @@ header {
   display: inline-block;
   padding: 0px 20px;
 }
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color:blanchedalmond ;
+}
+
+
+
+/*====body====*/
 
 body {
   height: 100vh;
