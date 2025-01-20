@@ -1,7 +1,8 @@
 /*====root====*/
 :root {
-  --body-color: rgb(31, 36, 37) ;
-  --text-color: rgb(0, 0, 0) ;
+  --body-color: rgb(80, 70, 70);
+  --text-color: #F4D793;
+  --nav-color: #889E73 ;
 }
 
 
@@ -26,7 +27,7 @@ header {
 /*====nav====*/
 
 .navbar {
-  background-color: #c2d377;
+  background-color:var(--nav-color);
 }
 
 .nav-links {
@@ -46,7 +47,18 @@ header {
   color:blanchedalmond ;
 }
 
+button {
+  padding: 9px 25px;
+  background-color: #F4D793;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
 
+button:hover {
+  background-color: #1a1917;
+}
 
 /*====body====*/
 
