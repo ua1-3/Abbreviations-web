@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
 /*====root====*/
 :root {
   --body-color: rgb(80, 70, 70);
@@ -9,9 +11,15 @@
 li, a, button{
   font-family:  "montserrat",sans-serif ;
   font-weight: 500;
-  font-size:  16px;
+  font-size:  20px;
   color: var(--text-color);
   text-decoration: none;
+}
+
+h1, h2, h3, p{
+  text-align: center;
+  font-size: 500;
+  color:var(--text-color);
 }
 
 header {
@@ -21,14 +29,16 @@ header {
   padding: 30px 10%;
 }
 
-.logo {
-  cursor: pointer;
-}
-
-/*====nav====*/
+/*====navbar====*/
 
 .navbar {
   background-color:var(--nav-color);
+}
+
+.nav_text {
+  color: var(--text-color);
+  font-family: "rakkas";
+  font-size: 25px;
 }
 
 .nav_links {
@@ -45,8 +55,10 @@ header {
 }
 
 .nav_links li a:hover {
-  color:blanchedalmond ;
+  color:rgb(3, 3, 3) ;
 }
+
+/*====button====*/
 
 button {
   padding: 9px 25px;
