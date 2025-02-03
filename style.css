@@ -79,3 +79,12 @@ body {
   height: 100vh;
   background: var(--body-color);
 }
+
+.square {
+  background: #000;
+  width: 50vw;
+  height: 50vw;
+}
+.square h1 {
+  color: #fff;
+}
