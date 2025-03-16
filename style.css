@@ -3,8 +3,10 @@
 /*====root====*/
 :root {
   --body-color: rgb(80, 70, 70);
-  --text-color: #F4D793;
-  --nav-color: #889E73 ;
+  --text-color: #FADA7A ;
+  --text-color2: #F0A04B ;
+  --nav-color: #B1C29E ;
+  --button-color: ;
 }
 
 
@@ -80,11 +82,16 @@ body {
   background: var(--body-color);
 }
 
-.square {
-  background: #000;
-  width: 50vw;
-  height: 50vw;
+.menu_links {
+  list-style: none;
 }
-.square h1 {
-  color: #fff;
+
+.menu_links li {
+  display: flex;
+  text-align: center;
+  
+}
+
+.menu_links li a:hover{
+  color:rgb(3, 3, 3) ;
 }
